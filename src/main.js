@@ -1,7 +1,8 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { RicknMortyApp } from './breakingbad/breakingbad-app'
+// import { RicknMortyApp } from './breakingbad/breakingbad-app'
+import { UserApp } from './users/users-app'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -18,4 +19,5 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 const element = document.querySelector('.card')
-RicknMortyApp(element)
+// RicknMortyApp(element)
+UserApp(element)
